@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+use Feebo;
+my $bot = Feebo->new_with_options();
+$bot->run();
